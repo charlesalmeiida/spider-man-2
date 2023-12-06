@@ -7,6 +7,7 @@
   top: 8.9rem;
   right: 0;
   z-index: 1;
+  pointer-events: none;
 }
 
 .s-videos {
@@ -106,5 +107,20 @@
         opacity: 1;
       }
     }
+  }
+}
+@media (max-width: 1200px) {
+  .s-videos {
+    padding: 6rem 0 6rem;
+    .container {
+      .btn {
+        display: none;
+      }
+    }
+  }
+}
+@media (max-width: 560px) {
+  .s-videos {
+    padding: 4rem 0 4rem;
   }
 }

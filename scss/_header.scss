@@ -4,19 +4,31 @@ header {
   padding: 1.6rem 0;
   position: sticky;
   top: 0;
-  z-index: 3;
+  z-index: 10;
   .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    .logos {
-      display: flex;
-      gap: 2.4rem;
-    }
     nav {
       ul {
         display: flex;
         gap: 4.7rem;
+      }
+    }
+  }
+}
+@media (max-width: 991px) {
+  .container {
+    nav {
+      display: none;
+    }
+  }
+}
+@media (max-width: 560px) {
+  .container {
+    .logo {
+      img {
+        max-width: 12.6rem;
       }
     }
   }

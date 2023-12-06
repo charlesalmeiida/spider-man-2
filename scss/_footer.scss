@@ -9,6 +9,12 @@ footer::before {
   position: absolute;
   top: 0;
 }
+@media (max-width: 991px) {
+  footer::before {
+    background-size: 120%;
+  }
+}
+
 footer {
   position: relative;
   padding: 9.6rem 0 7.2rem;
@@ -26,6 +32,24 @@ footer {
         font-weight: 400;
         line-height: 150%;
         margin-top: 1.2rem;
+      }
+    }
+  }
+}
+@media (max-width: 1200px) {
+  footer {
+    padding: 5rem 0 5rem;
+  }
+}
+@media (max-width: 991px) {
+  footer {
+    padding: 4rem 0 4rem;
+    .container {
+      flex-direction: column;
+      align-items: center;
+      gap: 4rem;
+      .left {
+        text-align: center;
       }
     }
   }

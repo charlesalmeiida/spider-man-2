@@ -14,6 +14,8 @@
       width: 100%;
       max-width: 62.2rem;
       animation: faderight 1s forwards;
+      position: relative;
+      z-index: 4;
       .plataform {
         display: flex;
         margin-bottom: 2.4rem;
@@ -104,6 +106,57 @@
     }
   }
 }
+@media (max-width: 1200px) {
+  .hero {
+    padding: 6rem 0 14.3rem;
+  }
+}
+@media (max-width: 991px) {
+  .hero {
+    .container {
+      .left {
+        max-width: 100%;
+      }
+      .right {
+        display: none;
+      }
+    }
+  }
+}
+@media (max-width: 560px) {
+  .hero {
+    padding: 4rem 0 4rem;
+    background-size: 1120px;
+    background-position-x: 62%;
+    .container {
+      .left {
+        .value {
+          margin-bottom: 4rem;
+          h3 {
+            margin-bottom: 1rem;
+          }
+        }
+        .instructions {
+          ul {
+            gap: 1rem;
+            li {
+              gap: 1rem;
+              p {
+                margin-bottom: 0;
+                font-size: 1.4rem;
+              }
+            }
+          }
+          ul:nth-child(2) {
+            flex-direction: column;
+            align-items: flex-start;
+          }
+        }
+      }
+    }
+  }
+}
+
 .hero::after {
   content: "";
   width: 100%;
@@ -114,6 +167,7 @@
   z-index: 2;
   height: 21.6rem;
   transform: rotate(180deg);
+  pointer-events: none;
 }
 
 .s-vilao::before {
@@ -125,6 +179,11 @@
   left: 0;
   z-index: 2;
   height: 21.6rem;
+}
+@media (max-width: 991px) {
+  .s-vilao::before {
+    height: 10rem;
+  }
 }
 
 .s-vilao {
@@ -186,6 +245,27 @@
     }
   }
 }
+@media (max-width: 1200px) {
+  .s-vilao {
+    height: 55rem;
+  }
+}
+@media (max-width: 560px) {
+  .s-vilao {
+    height: auto;
+    padding: 6rem 0;
+    background-size: 90rem;
+    .container {
+      h2 {
+        font-size: 3.6rem;
+      }
+      p {
+        max-width: 30rem;
+        margin-bottom: 4rem;
+      }
+    }
+  }
+}
 
 .s-vilao::after {
   content: "";
@@ -197,6 +277,11 @@
   z-index: 2;
   height: 21.6rem;
   transform: rotate(180deg);
+}
+@media (max-width: 991px) {
+  .s-vilao::after {
+    height: 10rem;
+  }
 }
 
 @keyframes faderight {
