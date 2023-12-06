@@ -1,0 +1,102 @@
+body {
+  background-color: #060608;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #fff;
+  font-family: "Mohave", sans-serif;
+  font-size: 5.6rem;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h2 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+p {
+  color: #fff;
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+a {
+  color: #fff;
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 150%;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #f55827;
+}
+
+.btn-primary {
+  border-radius: 3.2rem;
+  background-color: #f55827;
+  padding: 1.6rem 4rem;
+  color: #fff;
+  font-family: "Roboto Flex" sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  transition: all 0.3s ease;
+}
+
+.btn-secondary {
+  border-radius: 3.2rem;
+  border: 0.2rem solid #2f2f3b;
+  padding: 1rem 2.4rem;
+  color: #fff;
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 150%;
+  transition: all 0.3s ease;
+}
+
+.btn-fav {
+  padding: 1.6rem;
+  border-radius: 3.2rem;
+  border: 2px solid #2f2f3b;
+}
+
+.btn-fav:hover {
+  box-shadow: 0 0 0 0.3rem rgba(255, 255, 255, 0.3);
+  background: #fff;
+  color: #101014;
+  img {
+    filter: invert(1);
+  }
+}
+
+.btn-primary:hover {
+  background-color: #cf3302;
+  box-shadow: 0 0 0 0.3rem rgba(245, 88, 39, 0.3);
+}
+
+.btn-secondary:hover {
+  box-shadow: 0 0 0 0.3rem rgba(255, 255, 255, 0.3);
+  background: #fff;
+  color: #101014;
+}
