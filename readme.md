@@ -41,4 +41,4 @@ O projeto foi desenvolvido com o objetivo de aperfeiçoar os conhecimentos nas t
 
 ## 🔖 Layout
 
-Você pode visualizar o resultado do projeto através [DESSE LINK](charlesalmeiida.github.io/spider-man-2/).
+Você pode visualizar o resultado do projeto através [DESSE LINK](https://charlesalmeiida.github.io/spider-man-2/).
