@@ -16,6 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Mohave:wght@600;700&family=Poppins:wght@300;400;700&family=Roboto+Flex:opsz,wght@8..144,400;8..144,500&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <header>
@@ -106,7 +107,7 @@
           <h2>Últimos vídeos</h2>
           <div class="swiper-pagination"></div>
         </div>
-        <div class="slide-video">
+        <div class="slide-video" data-aos="fade-up">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <a href="#" class="card-video"
@@ -188,12 +189,12 @@
     </section>
     <section class="s-vilao">
       <div class="container">
-        <h2>O VILÃO MAIS PODEROSO ESTÁ À SOLTA</h2>
-        <p>
+        <h2 data-aos="zoom-in">O VILÃO MAIS PODEROSO ESTÁ À SOLTA</h2>
+        <p data-aos="zoom-in">
           Domine as habilidades dos dois Spiders para derrotá-lo em um combate
           épico.
         </p>
-        <img src="./assets/svg/mouse-icon.svg" alt="" />
+        <img class="icon-mouse" src="./assets/svg/mouse-icon.svg" alt="" />
       </div>
     </section>
     <footer class="footer">
@@ -215,5 +216,7 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./js/scripts.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/animations.js"></script>
   </body>
 </html>
